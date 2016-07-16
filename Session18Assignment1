@@ -1,0 +1,91 @@
+create 'customer','personal_details','order_details'
+
+put 'customer','100','personal_details:name','Nilesh'
+put 'customer','100','personal_details:age','29'
+put 'customer','100','personal_details:city','jaipur'
+put 'customer','100','personal_details:state','raj'
+put 'customer','100','order_details:order_no','123'
+put 'customer','100','order_details:order_quantity','5'
+put 'customer','100','order_details:order_amount','100'
+
+put 'customer','100','personal_details:name','Nilesh'
+put 'customer','100','personal_details:age','29'
+put 'customer','100','personal_details:city','jaipur'
+put 'customer','100','personal_details:state','raj'
+put 'customer','100','order_details:order_no','234'
+put 'customer','100','order_details:order_quantity','15'
+put 'customer','100','order_details:order_amount','500'
+
+
+put 'customer','101','personal_details:name','rahul'
+put 'customer','101','personal_details:age','29'
+put 'customer','101','personal_details:city','rohtak'
+put 'customer','101','personal_details:state','har'
+put 'customer','101','order_details:order_no','345'
+put 'customer','101','order_details:order_quantity','25'
+put 'customer','101','order_details:order_amount','200'
+
+
+put 'customer','102','personal_details:name','ritesh'
+put 'customer','102','personal_details:age','29'
+put 'customer','102','personal_details:city','rohtak'
+put 'customer','102','personal_details:state','har'
+put 'customer','102','order_details:order_no','456'
+put 'customer','102','order_details:order_quantity','35'
+put 'customer','102','order_details:order_amount','300'
+
+put 'customer','103','personal_details:name','Nilesh'
+put 'customer','103','personal_details:age','29'
+put 'customer','103','personal_details:city','jaipur'
+put 'customer','103','personal_details:state','raj'
+put 'customer','103','order_details:order_no','123'
+put 'customer','103','order_details:order_quantity','5'
+
+
+
+put 'customer','104','personal_details:name','qwe'
+put 'customer','104','personal_details:age','29'
+put 'customer','104','personal_details:city','jaipur'
+put 'customer','104','personal_details:state','raj'
+put 'customer','104','order_details:order_no','123'
+
+
+put 'customer','105','personal_details:name','asd'
+put 'customer','105','personal_details:age','29'
+put 'customer','105','personal_details:city','jaipur'
+put 'customer','105','personal_details:state','raj'
+put 'customer','105','order_details:order_no','123'
+put 'customer','105','order_details:order_quantity','5'
+put 'customer','105','order_details:order_amount','100'
+
+
+put 'customer','106','personal_details:name','zxc'
+put 'customer','106','personal_details:age','29'
+put 'customer','106','personal_details:city','jaipur'
+put 'customer','106','personal_details:state','raj'
+put 'customer','106','order_details:order_no','123'
+put 'customer','106','order_details:order_quantity','5'
+put 'customer','106','order_details:order_amount','100'
+
+
+put 'customer','107','personal_details:name','vbn'
+put 'customer','107','personal_details:age','29'
+put 'customer','107','personal_details:city','jaipur'
+put 'customer','107','personal_details:state','raj'
+put 'customer','107','order_details:order_no','123'
+put 'customer','107','order_details:order_quantity','5'
+put 'customer','107','order_details:order_amount','100'
+
+
+put 'customer','108','personal_details:name','poi'
+put 'customer','108','personal_details:age','29'
+put 'customer','108','personal_details:city','jaipur'
+put 'customer','108','personal_details:state','raj'
+put 'customer','108','order_details:order_no','123'
+put 'customer','108','order_details:order_quantity','5'
+
+
+
+get 'customer' , '100'
+
+get 'customer' , '105'
